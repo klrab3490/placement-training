@@ -1,0 +1,91 @@
+# UST Global Coding Questions
+
+This repository contains solutions to five coding problems that can be useful for coding interviews and practice. Each problem is explained in detail, along with example inputs and outputs.
+
+## Table of Contents
+
+1. [Matrix Pattern Generation](#matrix-pattern-generation)
+2. [Chair Arrangement Validation](#chair-arrangement-validation)
+3. [Matrix Number Generation](#matrix-number-generation)
+4. [Stone Game](#stone-game)
+5. [Diamond Pattern Generation](#diamond-pattern-generation)
+
+---
+
+## Problem 1: Matrix Pattern Generation
+
+Given an integer `n`, create a matrix of the form:
+
+**Example:**
+For `n = 4`, the output should be:
+
+4 4 4 4 4 4 4 \
+4 3 3 3 3 3 4 \
+4 3 2 2 2 3 4 \
+4 3 2 1 2 3 4 \
+4 3 2 2 2 3 4 \
+4 3 3 3 3 3 4 \
+4 4 4 4 4 4 4
+
+## Problem 2: Chair Arrangement Validation
+
+There are 26 chairs named from A to Z that need to be arranged according to the ordinal number of the letter in the English alphabet. Given a string, find the number of chairs that are correctly placed.
+
+**Example:**
+
+Input: `abcdodcek`
+Output: `4`
+
+## Problem 3: Matrix Number Generation
+
+Given an integer `n`, create a matrix of the form:
+
+**Example:**
+For `n = 5`, the output should be:
+
+1 1 1 1 2 \
+3 2 2 2 2 \
+3 3 3 3 4 \
+5 4 4 4 4 \
+5 5 5 5 6
+
+## Problem 4: Stone Game
+
+Alice and Bob are playing a game called "Stone Game". In this game, each player can remove either 1 or 4 stones from a pile. The player who picks the last stone wins. Alice always goes first.
+
+Your task is to determine if Alice can win if both play optimally.
+
+**Example:**
+
+Input: `3`
+
+Output: `Yes`
+
+Input: `55`
+
+Output: `No`
+
+## Problem 5: Diamond Pattern Generation
+
+Generate a diamond-like pattern of numbers as described below.
+
+**Example:** 
+For `N = 5`, the output should be:
+
+1       5 \
+  2   4   \
+    3     \
+  2   4   \
+1       5 \
+
+## How to Run
+
+To execute the solutions for these problems, please follow the instructions below:
+
+1. Clone this repository: 
+```
+git clone https://github.com/klrab3490/placement-training.git
+cd placement-training
+```
+
+2. Run the individual solutions in your preferred programming language.

@@ -1,5 +1,10 @@
-
-
+# Diagonal Matrix Generation
+# This program generates a square matrix of size n x n based on specific diagonal patterns.
+# The user is prompted to enter a number n, and the matrix is populated as follows:
+# - The main diagonal (top-left to bottom-right) contains the value of the row index (i).
+# - The anti-diagonal (top-right to bottom-left) contains the value of the column index (j).
+# - All other positions in the matrix are filled with spaces for proper alignment.
+# The resulting matrix is printed in a formatted manner.
 
 
 n = int(input("Enter a number: "))

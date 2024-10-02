@@ -1,8 +1,7 @@
 # Stone Game
-# Ladies First
-# One Can Take 1 or 4 Stones at once
-# 
-# 
+# Rules: Ladies First, One Can Take 1 or 4 Stones at once
+# Given n as input, determine if Alice can win the game return Yes
+ 
 # Staticstics for 1 to 10
 # 1 - Yes = Alice Takes All
 # 2 - No = Bob takes the alst one

@@ -1,3 +1,11 @@
+# Matrix Number Generation
+# This program generates an n x n matrix based on specific rules for filling in the values.
+# For even-indexed rows, the values are generated differently than for odd-indexed rows.
+# The last element of each even row is incremented by 1, while the first element of each odd row is also incremented.
+# The user is prompted to enter the size of the matrix, and the resulting matrix is displayed.
+
+
+print("Matrix Number Generation")
 n = int(input("Enter a number: "))
 matrix = []
 

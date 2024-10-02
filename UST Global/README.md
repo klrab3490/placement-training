@@ -19,7 +19,6 @@ Given an integer `n`, create a matrix of the form:
 **Example:**
 For `n = 4`, the output should be:
 
-|   |   |   |   |   |   |   |
 |---|---|---|---|---|---|---|
 | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
 | 4 | 3 | 3 | 3 | 3 | 3 | 4 |
@@ -28,7 +27,6 @@ For `n = 4`, the output should be:
 | 4 | 3 | 2 | 2 | 2 | 3 | 4 |
 | 4 | 3 | 3 | 3 | 3 | 3 | 4 |
 | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
-|   |   |   |   |   |   |   |
 
 Code File: [Matrix Pattern Generator Python File](./Question%201.py)
 
@@ -50,14 +48,12 @@ Given an integer `n`, create a matrix of the form:
 **Example:**
 For `n = 5`, the output should be:
 
-|   |   |   |   |   |
 |---|---|---|---|---|
 | 1 | 1 | 1 | 1 | 2 |
 | 3 | 2 | 2 | 2 | 2 |
 | 3 | 3 | 3 | 3 | 4 |
 | 5 | 4 | 4 | 4 | 4 |
 | 5 | 5 | 5 | 5 | 6 |
-|   |   |   |   |   |
 
 Code File: [Matrix Number Generation](./Question%203.py)
 
@@ -86,13 +82,11 @@ Generate a diamond-like pattern of numbers as described below.
 **Example:**
 For `N = 5`, the output should be:
 
-|   |   |   |   |   |
 |---|---|---|---|---|
 | 1 |   |   |   | 5 |
 |   | 2 |   | 4 |   |
 |   |   | 3 |   |   |
 |   | 2 |   | 4 |   |
 | 1 |   |   |   | 5 |
-|   |   |   |   |   |
 
 Code File: [Diamond Pattern Generation](./Question%205.py)

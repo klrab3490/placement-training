@@ -19,6 +19,7 @@ Given an integer `n`, create a matrix of the form:
 **Example:**
 For `n = 4`, the output should be:
 
+|   |   |   |   |   |   |   |
 |---|---|---|---|---|---|---|
 | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
 | 4 | 3 | 3 | 3 | 3 | 3 | 4 |
@@ -48,6 +49,7 @@ Given an integer `n`, create a matrix of the form:
 **Example:**
 For `n = 5`, the output should be:
 
+|   |   |   |   |   |
 |---|---|---|---|---|
 | 1 | 1 | 1 | 1 | 2 |
 | 3 | 2 | 2 | 2 | 2 |
@@ -82,6 +84,7 @@ Generate a diamond-like pattern of numbers as described below.
 **Example:**
 For `N = 5`, the output should be:
 
+|   |   |   |   |   |
 |---|---|---|---|---|
 | 1 |   |   |   | 5 |
 |   | 2 |   | 4 |   |

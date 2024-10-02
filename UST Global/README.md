@@ -4,11 +4,11 @@ This repository contains solutions to five coding problems that can be useful fo
 
 ## Table of Contents
 
-1. [Matrix Pattern Generation](#matrix-pattern-generation)
-2. [Chair Arrangement Validation](#chair-arrangement-validation)
-3. [Matrix Number Generation](#matrix-number-generation)
-4. [Stone Game](#stone-game)
-5. [Diamond Pattern Generation](#diamond-pattern-generation)
+1. [Matrix Pattern Generation](#problem-1-matrix-pattern-generation)
+2. [Chair Arrangement Validation](#problem-2-chair-arrangement-validation)
+3. [Matrix Number Generation](#problem-3-matrix-number-generation)
+4. [Stone Game](#problem-4-stone-game)
+5. [Diamond Pattern Generation](#problem-5-diamond-pattern-generation)
 
 ---
 
@@ -27,6 +27,8 @@ For `n = 4`, the output should be:
 4 3 3 3 3 3 4 \
 4 4 4 4 4 4 4
 
+Code File: [Matrix Pattern Generator Python File](./Question%201.py)
+
 ## Problem 2: Chair Arrangement Validation
 
 There are 26 chairs named from A to Z that need to be arranged according to the ordinal number of the letter in the English alphabet. Given a string, find the number of chairs that are correctly placed.
@@ -35,6 +37,8 @@ There are 26 chairs named from A to Z that need to be arranged according to the 
 
 Input: `abcdodcek`
 Output: `4`
+
+Code File: [Chair Arrangement Validation](./Question%202.py)
 
 ## Problem 3: Matrix Number Generation
 
@@ -48,6 +52,8 @@ For `n = 5`, the output should be:
 3 3 3 3 4 \
 5 4 4 4 4 \
 5 5 5 5 6
+
+Code File: [Matrix Number Generation](./Question%203.py)
 
 ## Problem 4: Stone Game
 
@@ -65,27 +71,21 @@ Input: `55`
 
 Output: `No`
 
+Code File: [Stone Game](./Question%204.py)
+
 ## Problem 5: Diamond Pattern Generation
 
 Generate a diamond-like pattern of numbers as described below.
 
-**Example:** 
+**Example:**
 For `N = 5`, the output should be:
 
-1       5 \
-  2   4   \
-    3     \
-  2   4   \
-1       5 \
+1.......5 \
+..2...4   \
+....3     \
+..2...4   \
+1.......5
 
-## How to Run
+- Ignore dots
 
-To execute the solutions for these problems, please follow the instructions below:
-
-1. Clone this repository: 
-```
-git clone https://github.com/klrab3490/placement-training.git
-cd placement-training
-```
-
-2. Run the individual solutions in your preferred programming language.
+Code File: [Diamond Pattern Generation](./Question%205.py)
